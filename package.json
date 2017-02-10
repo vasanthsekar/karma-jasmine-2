@@ -1,0 +1,29 @@
+{
+  "name": "movie-app",
+  "version": "1.0.0",
+  "description": "movie application",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/karma/bin/karma start karma.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vasanthsekar/karma-jasmine.git"
+  },
+  "keywords": [
+    "movie"
+  ],
+  "author": "vasanth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vasanthsekar/karma-jasmine/issues"
+  },
+  "homepage": "https://github.com/vasanthsekar/karma-jasmine#readme",
+  "devDependencies": {
+    "jasmine-core": "^2.5.2",
+    "karma": "^1.4.1",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-jasmine": "^1.1.0",
+    "karma-phantomjs-launcher": "^1.0.2"
+  }
+}
